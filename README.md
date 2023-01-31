@@ -51,7 +51,6 @@ The demo consists of loading the dataset, create several models trying to get go
 * [Anaconda](https://www.anaconda.com/products/distribution)
 * [Python](https://www.python.org/)
 * [Tensorflow](https://www.tensorflow.org/)
-* [scikit-learn](https://scikit-learn.org/)
 * [Matplotlib](https://matplotlib.org/)
 * [NumPy](https://numpy.org/)
 
@@ -63,7 +62,7 @@ The demo consists of loading the dataset, create several models trying to get go
 
 ## <div id="getting-Started"> 2.1 Getting Started (Colab)📚  </div>
 
-* Open this link in a new tab (CTRL+Click or Middle_click): [Run colab from this github](https://githubtocolab.com/ThomasLOUIS1/Wildfire_segmentation.git)
+* Open this link in a new tab (CTRL+Click or Middle_click): [Run colab from this github](https://githubtocolab.com/ThomasLOUIS1/TP_wildfire_segmentation_ETU.git)
 
 * Choose : 
     - Branche : main
@@ -95,9 +94,9 @@ Follow these instructions to setup your project.
 - Clone the repo and go to its root directory.
 
   ```sh
-  git clone "https://github.com/ThomasLOUIS1/Wildfire_segmentation.git"
+  git clone "https://github.com/ThomasLOUIS1/TP_wildfire_segmentation_ETU.git"
   
-  cd Wildfire_segmentation/
+  cd TP_wildfire_segmentation_ETU/
   ```
 
 - Install the rest of the environemnt:
@@ -121,15 +120,15 @@ The jupyter nootebook is not installed in the Wildfire_segmentation env created 
 conda install -c anaconda jupyter
 ```
 
-🏁 Run the notebook [**TP_wildfire.ipynb**](https://github.com/ThomasLOUIS1/Wildfire_segmentation/TP_wildfire.ipynb)
+🏁 Run the notebook [**TP_wildfire.ipynb**](https://github.com/ThomasLOUIS1/TP_wildfire_segmentation_ETU/TP_wildfire_-_ETU.ipynb)
 
 ```bash
-jupyter notebook TP_wildfire.ipynb
+jupyter notebook TP_wildfire_-_ETU.ipynb
 ```
 
 **✍ NOTES:**
 
-- [**TP_wildfire.ipynb**](https://github.com/ThomasLOUIS1/Wildfire_segmentation/TP_wildfire.ipynb) will use some function declared in
+- [**TP_wildfire.ipynb**](https://github.com/ThomasLOUIS1/Wildfire_segmentation/TP_wildfire_segmentation_ETU.ipynb) will use some function declared in
   utils.py and metrics_and_losses.py
   (<a href="#data_structure">bellow</a>).
 
@@ -170,7 +169,7 @@ Contains modified Copernicus Sentinel data [2016-2020] for Sentinel data
 
 
 
-Project Link: [https://github.com/ThomasLOUIS1/Wildfire_segmentation](https://github.com/ThomasLOUIS1/Wildfire_segmentation)
+Project Link: [https://github.com/ThomasLOUIS1/TP_wildfire_segmentation_ETU](https://github.com/ThomasLOUIS1/TP_wildfire_segmentation_ETU)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

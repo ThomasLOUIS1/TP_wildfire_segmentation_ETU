@@ -1,0 +1,10 @@
+data/false_color_full
+data/masks_full
+data/RGB
+data/masks
+data/tribands
+data/dataset_old.zip
+data/dataset.zip
+TP_wildfire_prof.ipynb
+Bonus_wildfire_prof.ipynb
+__pycache__
