@@ -73,7 +73,7 @@ The Notebook consists in loading the dataset, creating several models trying to 
 
 ## <div id="getting-Started"> 2.1 Getting Started (Colab)📚  </div>
 
-* Open this link in a new tab (CTRL+Click or Middle_click): [Run colab from this github](https://githubtocolab.com/ThomasLOUIS1/Wildfire_segmentation.git)
+* Open this link in a new tab (CTRL+Click or Middle_click): [Run colab from this github](https://githubtocolab.com/ThomasLOUIS1/TP_wildfire_segmentation_ETU.git)
 
 * Choose : 
     - Branche : main
@@ -82,73 +82,6 @@ The Notebook consists in loading the dataset, creating several models trying to 
 * Then :
     - :uk: go to Runtime >> Change runtime type >> Choose GPU
     - :fr: go to Execution >> Modifier le type d'éxecution >> Choose GPU
-## <div id="getting-Started"> 2.2 Getting Started (linux)📚  </div>
-
-Follow these instructions to setup your project.
-
-
-* [Install miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) or [anaconda](https://www.anaconda.com/products/distribution)
-* Creat a new conda environment called wildfire_segmentation_env and activate it
-
-        conda create -n wildfire_segmentation_env -y python==3.9
-        conda activate wildfire_segmentation_env
-
-* Install [tensorflow]() and cudatools 11.2 and cudnn 8.1.0. Verify that your GPU is recognized.
-
-        conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
-        export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
-        python -m pip install tensorflow
-        # Verify install:
-        python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
-
-
-- Clone the repo and go to its root directory.
-
-  ```sh
-  git clone "https://github.com/ThomasLOUIS1/Wildfire_segmentation.git"
-  
-  cd Wildfire_segmentation/
-  ```
-
-- Install the rest of the environemnt:
-
-        pip install requirement.txt
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- USAGE EXAMPLES -->
-
-## <div id="usage (linux)">3. Usage 📒 </div>
-
-### <div id="Notebook_running"> Notebook running</div>
-
-The jupyter librairy is not installed in the Wildfire_segmentation env created by <a href="https://github.com/ThomasLOUIS1/Wildfire_segmentation/Wildfire_segmentation_env.yml">Wildfire_segmentation_env.yml </a> file.
-
-🚨 To run the notebook **TP_wildfire.ipynb** you have to install **jupyter** package in your active (Wildfire_segmentation) environment
-```bash
-conda install -c anaconda jupyter
-```
-
-🏁 Run the notebook [**TP_wildfire.ipynb**](https://github.com/ThomasLOUIS1/Wildfire_segmentation/TP_wildfire.ipynb)
-
-```bash
-jupyter notebook TP_wildfire.ipynb
-```
-
-**✍ NOTES:**
-
-- [**TP_wildfire.ipynb**](https://github.com/ThomasLOUIS1/Wildfire_segmentation/TP_wildfire.ipynb) will use some function declared in
-  utils.py and metrics_and_losses.py
-  (<a href="#data_structure">bellow</a>).
-
-
-- The data folder only contains a .zip to extract to get the following dataset : 
-    - **false_color** folder contains images composed by [B12,B11,B04] (sentinel2 bands) used as the input for training. 
-    - **RGB** contains 15 images corresponding to RGB images used only for visualizing.
-    - **masks** folder contains binary masks (**value : 0=no-fire; value : 1=fire**) used as labels for training.
-
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -178,7 +111,7 @@ Contains modified Copernicus Sentinel data [2016-2020] for Sentinel data
 
 
 
-Project Link: [https://github.com/ThomasLOUIS1/Wildfire_segmentation](https://github.com/ThomasLOUIS1/Wildfire_segmentation)
+Project Link: [https://github.com/ThomasLOUIS1/TP_wildfire_segmentation_ETU](https://github.com/ThomasLOUIS1/TP_wildfire_segmentation_ETU)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
