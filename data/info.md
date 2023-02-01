@@ -3,11 +3,11 @@
 
 ```
 data/
-├── false_color
+├── tribands
 │         ├── train
 │         ├── val
 │         └── test
-├── tribands
+├── masks
 │         ├── train
 │         ├── val
 │         └── test
