@@ -77,7 +77,7 @@ The Notebook consists in loading the dataset, creating several models trying to 
 
 * Choose : 
     - Branche : main
-    - Click "TP_wildfire.ipynb"
+    - Click "TP_wildfire_-_ETU.ipynb"
 
 * Then :
     - :uk: go to Runtime >> Change runtime type >> Choose GPU
